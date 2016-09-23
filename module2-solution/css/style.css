@@ -1,0 +1,174 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.section{
+	position: relative;
+	padding: 35px 10px 10px 10px;
+    background-color: grey;
+	font-family: Helvetica;
+	border: 3px solid black;
+	margin: 5px;
+}
+
+.recepie-title{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 10px;
+	min-width: 130px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+}
+
+.recepie-title.sausage{
+	    background-color: blue;
+}
+
+.recepie-title.fish{
+	    background-color: red;
+}
+.recepie-title.chicken{
+	    background-color: orange;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Desktop Device **********/
+@media (min-width: 992px) {
+  .col-dd-1, .col-dd-2, .col-dd-3, .col-dd-4, .col-dd-5, .col-dd-6, .col-dd-7, .col-dd-8, .col-dd-9, .col-dd-10, .col-dd-11, .col-dd-12 {
+	  float: left;
+  }
+  .col-dd-1 {
+    width: 8.33%;
+  }
+  .col-dd-2 {
+    width: 16.66%;
+  }
+  .col-dd-3 {
+    width: 25%;
+  }
+  .col-dd-4 {
+    width: 33.33%;
+  }
+  .col-dd-5 {
+    width: 41.66%;
+  }
+  .col-dd-6 {
+    width: 50%;
+  }
+  .col-dd-7 {
+    width: 58.33%;
+  }
+  .col-dd-8 {
+    width: 66.66%;
+  }
+  .col-dd-9 {
+    width: 74.99%;
+  }
+  .col-dd-10 {
+    width: 83.33%;
+  }
+  .col-dd-11 {
+    width: 91.66%;
+  }
+  .col-dd-12 {
+    width: 100%;
+  }
+}
+
+/********** Tablet Device **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-td-1, .col-td-2, .col-td-3, .col-td-4, .col-td-5, .col-td-6, .col-td-7, .col-td-8, .col-td-9, .col-td-10, .col-td-11, .col-td-12 {
+	  float: left;
+  }
+  .col-td-1 {
+    width: 8.33%;
+  }
+  .col-td-2 {
+    width: 16.66%;
+  }
+  .col-td-3 {
+    width: 25%;
+  }
+  .col-td-4 {
+    width: 33.33%;
+  }
+  .col-td-5 {
+    width: 41.66%;
+  }
+  .col-td-6 {
+    width: 50%;
+  }
+  .col-td-7 {
+    width: 58.33%;
+  }
+  .col-td-8 {
+    width: 66.66%;
+  }
+  .col-td-9 {
+    width: 74.99%;
+  }
+  .col-td-10 {
+    width: 83.33%;
+  }
+  .col-td-11 {
+    width: 91.66%;
+  }
+  .col-td-12 {
+    width: 100%;
+  }
+}
+
+/********** Mobile Device **********/
+@media (max-width: 767px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
